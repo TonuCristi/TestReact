@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #123;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: inherit;
+  background-color: rgb(28, 107, 187);
+  border: 3px solid #fff;
+  border-radius: 1.1rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
