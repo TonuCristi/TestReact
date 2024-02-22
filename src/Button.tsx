@@ -1,3 +1,7 @@
 export default function Button() {
-  return <button className="button">Click me</button>;
+  return (
+    <button className="button" onClick={() => console.log("It works!")}>
+      Click me
+    </button>
+  );
 }
